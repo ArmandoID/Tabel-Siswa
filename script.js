@@ -23,6 +23,7 @@ murid.forEach(siswa => {
     const tdNama = document.createElement("td");
     tdNama.textContent = siswa.nama;
     tr.appendChild(tdNama);
+    
     const tdJK = document.createElement("td");
     tdJK.textContent = siswa.jenisKelamin;
     tr.appendChild(tdJK);
